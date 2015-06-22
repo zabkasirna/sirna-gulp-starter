@@ -67,10 +67,12 @@ sitemap.xml
 sitemap.xml.gz
 
 
-### Frontend ###
+### Node ###
 node_modules/*
+!npm-package-downloader.sh
+
+### Frontend ###
 bower_components/*
-npm-package-downloader.sh
 
 
 ### SublimeText ###
